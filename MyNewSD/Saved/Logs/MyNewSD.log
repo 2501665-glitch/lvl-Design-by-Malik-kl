@@ -29127,3 +29127,223 @@ FPackageName: Skipped package /Game/StarterContent/Maps/StarterMap_BuiltData has
 [2025.12.04-10.59.36:407][215]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2025.12.04-10.59.36:740][215]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 15.059053 seconds
 [2025.12.04-10.59.37:405][217]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2025.12.04-10.59.51:470][325]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7761.447754
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-10.59.51:962][384]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 10 (Closing connection)
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-10.59.51:962][385]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-10.59.51:971][385]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.965453 seconds
+[2025.12.04-10.59.56:157][836]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7766.131348
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-10.59.56:633][892]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: 00000605F5972A00: libcurl info message cache 10 (Closing connection)
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-10.59.56:633][893]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-10.59.56:642][893]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 4.452651 seconds
+[2025.12.04-11.00.01:090][407]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7771.065430
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-11.00.01:564][464]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogHttp: 00000605F5970600: libcurl info message cache 10 (Closing connection)
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-11.00.01:564][465]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-11.00.01:574][465]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.398297 seconds
+[2025.12.04-11.00.06:329][ 31]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.04-11.00.06:336][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.04-11.00.06:368][ 31]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_ui
+[2025.12.04-11.00.06:372][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003657s)
+[2025.12.04-11.00.06:373][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/ui.ui to /Game/FirstPerson/Maps/UEDPIE_0_ui.ui (0.003799s)
+[2025.12.04-11.00.06:426][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2025.12.04-11.00.06:428][ 31]LogChaosDD: Creating Chaos Debug Draw Scene for world ui
+[2025.12.04-11.00.06:430][ 31]LogPlayLevel: PIE: World Init took: (0.002083s)
+[2025.12.04-11.00.06:432][ 31]LogAudio: Display: Creating Audio Device:                 Id: 113, Scope: Unique, Realtime: True
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.04-11.00.06:432][ 31]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2025.12.04-11.00.06:432][ 31]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.04-11.00.06:432][ 31]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.04-11.00.06:432][ 31]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.04-11.00.06:432][ 31]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.04-11.00.06:435][ 31]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=113
+[2025.12.04-11.00.06:449][ 31]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=113
+[2025.12.04-11.00.06:452][ 31]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=113
+[2025.12.04-11.00.06:452][ 31]LogInit: FAudioDevice initialized with ID 113.
+[2025.12.04-11.00.06:452][ 31]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=113
+[2025.12.04-11.00.06:452][ 31]LogAudio: Display: Audio Device (ID: 113) registered with world 'ui'.
+[2025.12.04-11.00.06:452][ 31]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 113
+[2025.12.04-11.00.06:455][ 31]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.12.04-11.00.06:455][ 31]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_ui.ui up for play (max tick rate 0) at 2025.12.04-16.00.06
+[2025.12.04-11.00.06:455][ 31]LogWorld: Bringing up level for play took: 0.000385
+[2025.12.04-11.00.06:458][ 31]LogOnline: OSS: Created online subsystem instance for: :Context_134
+[2025.12.04-11.00.06:461][ 31]PIE: Server logged in
+[2025.12.04-11.00.06:463][ 31]PIE: Play in editor total start time 0.127 seconds.
+[2025.12.04-11.00.08:015][197]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/FirstPerson/Maps/FirstPersonMap"
+[2025.12.04-11.00.08:016][197]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.04-11.00.08:016][197]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.04-11.00.08:016][197]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_ui
+[2025.12.04-11.00.08:016][197]LogWorld: UWorld::CleanupWorld for ui, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-11.00.08:016][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-11.00.08:072][197]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.04-11.00.08:075][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.12.04-11.00.08:076][197]LogStreaming: Display: FlushAsyncLoading(4929): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.04-11.00.08:084][197]LogAudio: Display: Audio Device (ID: 113) registered with world 'FirstPersonMap'.
+[2025.12.04-11.00.08:084][197]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.12.04-11.00.08:085][197]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.04-11.00.08:085][197]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.04-11.00.08:085][197]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2025.12.04-11.00.08:085][197]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.04-11.00.08:087][197]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.12.04-11.00.08:091][197]LogStreaming: Display: FGlobalImportStore:AddPackageRef: Dropping stale reference to package /Game/FirstPerson/Maps/FirstPersonMap (0xAB684108FF182619) that has been renamed to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap (0x20BFD38F37AC2C58)
+[2025.12.04-11.00.08:108][197]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 19.836 ms (total: 616.469 ms)
+[2025.12.04-11.00.08:109][197]LogWorldPartition: Display: WorldPartition initialize took 23.309 ms (total: 942.108 ms)
+[2025.12.04-11.00.08:109][197]LogPlayLevel: PIE: World Init took: (0.025216s)
+[2025.12.04-11.00.08:109][197]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.12.04-11.00.08:112][197]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.12.04-16.00.08
+[2025.12.04-11.00.08:112][197]LogWorld: Bringing up level for play took: 0.002470
+[2025.12.04-11.00.08:113][197]LogLoad: Took 0.098144 seconds to LoadMap(/Game/FirstPerson/Maps/FirstPersonMap)
+[2025.12.04-11.00.08:113][197]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/FirstPerson/Maps/FirstPersonMap
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: ================================================
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Total job queries 11,954, among them cache hits 1,188 (9.94%), DDC hits 4,697 (39.29%), Duplicates 1,520 (12.72%)
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Tracking 9,246 distinct input hashes that result in 8,638 distinct outputs (93.42%)
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: RAM used: 6.18 MiB of 819.20 MiB budget. Usage: 0.75%
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Shaders Compiled: 4,549
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Jobs assigned 4,549, completed 4,549 (100%)
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Average time worker was idle: 43.77 s
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Time job spent in pending queue: average 236.82 s, longest 533.46 s
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Job execution time: average 11.24 s, max 170.74 s
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Job life time (pending + execution): average 248.05 s, max 534.68
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Shader code size: average 14.739 KiB, min 1.16 KiB, max 330.166 KiB
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 679.80 s
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.12.04-11.00.10:880][495]LogShaderCompilers: Display: Jobs were issued in 784 batches (only local compilation was used), average 5.80 jobs/batch
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Average processing rate: 6.69 jobs/sec
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Total thread time: 5,623.257 s
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Total thread preprocess time: 163.236 s
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Percentage time preprocessing: 2.90%
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Effective parallelization: 8.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 31.11 sec, max 96.91 sec, min 3.57 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 22.42 sec, max 22.42 sec, min 22.42 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled    9 times, average 15.24 sec, max 23.98 sec, min 10.21 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                        FCloudRenderViewPS010 (compiled    1 times, average 7.05 sec, max 7.05 sec, min 7.05 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS (compiled   61 times, average 5.75 sec, max 18.20 sec, min 2.63 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 14.94% of total time (compiled   27 times, average 31.11 sec, max 96.91 sec, min 3.57 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 10.93% of total time (compiled  438 times, average 1.40 sec, max 11.67 sec, min 0.40 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 6.23% of total time (compiled   61 times, average 5.75 sec, max 18.20 sec, min 2.63 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 5.63% of total time (compiled   68 times, average 4.65 sec, max 8.57 sec, min 1.82 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display:                                                FOcclusionRGS - 4.94% of total time (compiled  160 times, average 1.73 sec, max 6.67 sec, min 0.67 sec)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: === Material stats ===
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Materials Translated:    198
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Material Total Translate Time: 0.89 s
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Material Translation Only: 0.28 s (31%)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: Material Cache Hits: 1 (1%)
+[2025.12.04-11.00.10:882][495]LogShaderCompilers: Display: ================================================
+[2025.12.04-11.00.11:512][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-11.00.11:512][559]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.12.04-11.00.11:512][559]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.12.04-11.00.11:513][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-11.00.11:513][559]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.12.04-11.00.11:527][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.04-11.00.11:542][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.04-11.00.11:586][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.04-11.00.11:586][559]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 113
+[2025.12.04-11.00.11:586][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=113
+[2025.12.04-11.00.11:589][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=113
+[2025.12.04-11.00.11:598][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.12.04-11.00.11:618][560]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2025.12.04-11.00.12:970][713]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7782.942383
+[2025.12.04-11.00.13:487][775]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-11.00.13:487][775]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-11.00.13:487][775]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-11.00.13:487][775]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-11.00.13:487][775]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-11.00.13:487][776]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 10 (Closing connection)
+[2025.12.04-11.00.13:489][776]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-11.00.13:489][776]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-11.00.13:497][776]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.561235 seconds
+[2025.12.04-11.00.16:054][ 83]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7786.025879
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-11.00.16:530][140]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: 00000605CDF19600: libcurl info message cache 10 (Closing connection)
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-11.00.16:530][141]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-11.00.16:540][141]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 5.283364 seconds
+[2025.12.04-11.00.21:906][739]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 7791.874023
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: request failed, libcurl error: 60 (SSL peer certificate or SSH remote key was not OK)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 0 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 1 (  Trying 54.209.181.127:443...)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 2 (Connected to api.epicgames.dev (54.209.181.127) port 443)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 3 (ALPN: curl offers http/1.1)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 4 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.04-11.00.22:914][742]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 5 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 6 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 7 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 8 (TLSv1.3 (OUT), TLS alert, unknown CA (560):)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 9 (SSL certificate problem: unable to get local issuer certificate)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: 00000605CDF18400: libcurl info message cache 10 (Closing connection)
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2025.12.04-11.00.22:914][743]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2025.12.04-11.00.23:249][743]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 15.205542 seconds
+[2025.12.04-11.00.23:912][745]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
